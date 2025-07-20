@@ -147,6 +147,8 @@ df_gold.write.format("delta").mode("overwrite").save("<ADLS gold layer path>")
 
 ✅ This page provides AI-enriched insights for evaluating a title’s quality, popularity, and rewatch value — ideal for content teams, marketers, and strategy analysts.
 
+![Content Analysis](https://github.com/rj14b/Prime-Video-Analysis/blob/main/image/Content%20Analysis.png)
+
 ---
 
 ### 📊 Performance Summary Page
@@ -172,6 +174,9 @@ df_gold.write.format("delta").mode("overwrite").save("<ADLS gold layer path>")
   - Visualizes content and viewership share from major producing countries like USA, India, UK, etc.
 
 ✅ This page helps stakeholders track platform growth, consumption patterns, and content mix efficiency over time.
+
+![Performance Summary](https://github.com/rj14b/Prime-Video-Analysis/blob/main/image/Performance%20Summary.png)
+
 
 ---
 
@@ -204,9 +209,11 @@ df_gold.write.format("delta").mode("overwrite").save("<ADLS gold layer path>")
 
 ✅ This page gives a demographic-driven lens on content strategy — helping target genres, ratings, and age-appropriate recommendations.
 
+![Audience Pulse](https://github.com/rj14b/Prime-Video-Analysis/blob/main/image/Audience%20Pulse.png)
+
 ---
 
-### ⏱️ Streaming Hours Page
+### ⏱️ Streaming Hours Uncovered Page
 
 > **Purpose**: Analyze when and how long users are watching—identify peak slots and session durations.
 
@@ -234,10 +241,11 @@ df_gold.write.format("delta").mode("overwrite").save("<ADLS gold layer path>")
 - **Peak Binge Time**: 12 PM–4 PM  
 
 ✅ Use this page to optimize content scheduling, marketing blitz times, and personalized send‑time recommendations.
+![Streaming Hours](https://github.com/rj14b/Prime-Video-Analysis/blob/main/image/Streaming%20Hours%20Uncovered.png)
 
 ---
 
-### 🌐 Language & Region Analysis Page
+### 🌐 Views by Voice Page
 
 > **Purpose**: Understand the distribution of content and viewership across languages and regional formats.
 
@@ -264,32 +272,10 @@ df_gold.write.format("delta").mode("overwrite").save("<ADLS gold layer path>")
   - Scatter plot comparing titles’ popularity and how binge-worthy they are
 
 ✅ This page supports localization strategy — highlighting top-performing languages, under-leveraged regions, and future content planning across geographies.
+![Language & Region](https://github.com/rj14b/Prime-Video-Analysis/blob/main/image/Views%20by%20Voice.png)
 
 
-
-
-## 🖼️ Dashboard Snapshots (To Add)
-* `images/kpi-overview.png`
-* `images/top-titles.png`
-* `images/watch-time.png`
-* `images/genre-matrix.png`
-* `images/language-reach.png`
-
-## 🗂 Recommended GitHub Structure
-
-```
-📁 amazon-prime-etl-analytics/
-├── Amazon_Prime_Video_Raj.pbix
-├── Prime_Gold_Layer_Transformation.py
-├── data/
-│   └── Prime_Gold_Layer_Transformation.csv
-├── images/
-│   ├── kpi-overview.png
-│   ├── genre-matrix.png
-│   └── ...
-└── README.md
-```
-
+---
 ## ✅ Key Takeaways
 
 * End-to-end Azure data pipeline with industry-grade architecture
@@ -297,3 +283,18 @@ df_gold.write.format("delta").mode("overwrite").save("<ADLS gold layer path>")
 * AI-inspired review generation and KPI logic
 * Business-friendly Power BI dashboard for OTT domain
 * Built with modularity, performance, and stakeholder usability in mind
+
+
+---
+
+## 🖼️ Dashboard Snapshots
+
+| Page                        | Screenshot |
+|----------------------------|------------|
+| 🏠 Home            | ![Home](https://github.com/rj14b/Prime-Video-Analysis/blob/main/image/Home.png) |
+| 🔍 Content Analysis         | ![Content Analysis](https://github.com/rj14b/Prime-Video-Analysis/blob/main/image/Content%20Analysis.png) |
+| 📊 Performance Summary      | ![Performance](https://github.com/rj14b/Prime-Video-Analysis/blob/main/image/Performance%20Summary.png) |
+| 👥 Audience Pulse           | ![Audience Pulse](https://github.com/rj14b/Prime-Video-Analysis/blob/main/image/Audience%20Pulse.png) |
+| ⏱️ Streaming Hours Uncovered          | ![Streaming Hours](https://github.com/rj14b/Prime-Video-Analysis/blob/main/image/Streaming%20Hours%20Uncovered.png) |
+| 🌐 Views by Voice     | ![Language & Region](https://github.com/rj14b/Prime-Video-Analysis/blob/main/image/Views%20by%20Voice.png) |
+
